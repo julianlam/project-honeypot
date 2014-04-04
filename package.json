@@ -1,0 +1,26 @@
+{
+  "name": "project-honeypot",
+  "version": "0.0.0",
+  "description": "Friendly API for querying and consuming the Project Honeypot API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/julianlam/project-honeypot"
+  },
+  "keywords": [
+    "honeypot",
+    "api",
+    "spam",
+    "harvester",
+    "detection"
+  ],
+  "author": "Julian Lam <julian@nodebb.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julianlam/project-honeypot/issues"
+  },
+  "homepage": "https://github.com/julianlam/project-honeypot"
+}
