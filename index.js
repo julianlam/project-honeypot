@@ -9,6 +9,7 @@ module.exports = function(accessKey) {
 	HoneyPot.query = function(ip, callback) {
 		var octetReversedIP = ip.split('.').reverse().join('.');
 
+		console.log(accessKey + '.' + octetReversedIP + '.dnsbl.httpbl.org');
 		dns.lookup(accessKey + '.' + octetReversedIP + '.dnsbl.httpbl.org', 4, function(err, address) {
 			if (err) {
 				if (err.code === 'ENOTFOUND') {

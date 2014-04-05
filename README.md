@@ -43,6 +43,13 @@ Callback signature is `(err, payload)`, and follows the following format:
 
 **Note**: Certain ip addresses in the `127.*.*.*` range are test addresses, `127.1.1.5` being one of them. It returns a result record corresponding to a IP address flagged as both "suspicious" and "comment spammer". [View the full list here](https://www.projecthoneypot.org/httpbl_api.php).
 
+## Tests
+
+``` bash
+$ npm install -g mocha
+$ KEY={accessKey} mocha spec
+```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
