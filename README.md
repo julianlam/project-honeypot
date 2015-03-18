@@ -1,6 +1,6 @@
 # Project Honeypot
 
-This npm module will allow you to query and consume the Project Honeypot API. Query it with an IP, and a simple JSON object will be sent back with relevent metadata regarding that IP.
+This npm module will allow you to query and consume the Project Honeypot API. Query it with an IP, and an Object will be sent back with relevent metadata regarding that IP.
 
 ## Installation
 
@@ -20,10 +20,10 @@ This npm module will allow you to query and consume the Project Honeypot API. Qu
 
 ## Callback
 
-Callback signature is `(err, payload)`, and follows the following format:
+Callback signature is `(err, payload)`, and adheres to the following format:
 
-1. If the IP address not found, `payload.found` is boolean `false`
-1. Otherwise, `payload.found` is boolean `true` and shows follows this format:
+1. If the IP address not found, `payload.found` is boolean `false`.
+1. Otherwise, `payload.found` is boolean `true` and follows this format:
 
 ``` json
 {
